@@ -1,8 +1,55 @@
 <html>
  <head>
    <title>Hey</title>
+   
+   <style>
+     body{
+       text-align: center;
+         background-color:black;
+       color: white;
+     }
+   
+     
+   </style>
+ 
+  <script>
+   function changePic(){
+     document.getElementById("test").src="https://i.stack.imgur.com/YGZ1t.jpg";
+   }
+   
+   </script>
+  
   </head> 
-  <body>
-    Hello 
+  <body style="text-align:center;background-color:black;color:">
+   <div id="container" style="background-color: white;color:black;
+               margin:25px;padding:25px;
+               border-radius:15px;">
+     
+     <p id="nav">
+       <a href="index.html">Home</a>
+       <a href="aboutme.html">About Me</a>
+       <a href="projects.html">Projects</a>
+     </p>
+ 
+     
+    <h1>
+      Hello
+     </h1>
+     
+     <p>
+  bang and the dirt is gone
+     </p>
+     <a href="https://www.google.com" /> 
+        click for google
+     </a>
+    <img id="test" style="height:200px"  src="http://bestapples.com/wp-content/uploads/2015/10/apple-varieties.jpg" />
+    
+    <p>
+      <input type="button" value="Click me!" onclick="changePic();" />
+    </p>
+    
+    
+    </div>
+ 
   </body> 
 </html>

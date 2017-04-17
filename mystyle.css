@@ -1,0 +1,21 @@
+     body{
+       text-align: center;
+         background-color:black;
+       color: white;
+     }
+   
+#container {
+  background-color: white;color:black;
+               margin:25px;padding:25px;
+               border-radius:15px;
+}
+
+h1 {
+   color: #FFF;
+  font-family: Serif, sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 60px;
+  margin: 0;
+}
+
